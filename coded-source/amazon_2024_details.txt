@@ -1,0 +1,10 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+Amazon,amazon_2024_sustainability-report.pdf,reporting_period,What is the reporting period?,CY2024,"reflects the period from January 1 through December 31, 2024",3,3,About This Report
+Amazon,amazon_2024_sustainability-report.pdf,geographic_scope,What is the geographic scope?,global,"Amazon is a global company with more than 1.5 million full- and part-time employees worldwide",3,3,About Amazon
+Amazon,amazon_2024_sustainability-report.pdf,india_specific_data,Is there India-specific water data?,PARTIAL,"Amazon will return more water to communities than it uses in direct operations across India by 2027",24,24,Our Approach
+Amazon,amazon_2024_sustainability-report.pdf,wue_reported,Is Water Usage Effectiveness reported?,YES,"contributed to AWS's global data center WUE of 0.15 liters of water",24,24,AWS Data Centers
+Amazon,amazon_2024_sustainability-report.pdf,wue_value,What is the WUE value?,0.15,"AWS's global data center WUE of 0.15 liters of water per kilowatt-hour (L/kWh) in 2024",24,24,AWS Data Centers
+Amazon,amazon_2024_sustainability-report.pdf,wue_type,What type of WUE is reported?,unspecified,"global data center WUE of 0.15 liters of water per kilowatt-hour",24,24,AWS Data Centers
+Amazon,amazon_2024_sustainability-report.pdf,cooling_architecture,What cooling architectures are deployed?,A2;MENTIONED_NO_DETAIL,"integrated liquid cooling components... helps enable our direct evaporative cooling systems",24,24,AWS Data Centers
+Amazon,amazon_2024_sustainability-report.pdf,water_source,What water sources are utilized?,S5,"source water from more sustainable sources, such as recycled and/or harvested rainwater",24,24,Our Approach
+Amazon,amazon_2024_sustainability-report.pdf,additional_claim,Are there qualitative claims regarding water savings?,4.3 billion liters replenished,"In 2024, these projects returned 4.3 billion liters of water to communities.",25,25,Replenish

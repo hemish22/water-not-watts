@@ -1,0 +1,9 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,india_specific_data,Does the document contain India-specific data?,PARTIAL,"In India, the adoption of liquid cooling improved data center power usage effectiveness (PUE)",28,28,Outcomes
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,wue_reported,Is Water Usage Effectiveness (WUE) reported?,YES,"WUE (water consumption per unit of IT power at data centers)",18,18,Planet positive
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,wue_value,What is the reported WUE value?,0.72,"Entire DC portfolio: 0.72 l/kWh",18,18,Planet positive
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,wue_type,What type of WUE is reported?,unspecified,"water consumption per unit of IT power at data centers",18,18,Planet positive
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,cooling_architecture,What cooling architecture is used?,MENTIONED_NO_DETAIL,"treating circulating water in the water-cooled air-conditioning system",18,18,Planet positive
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,cooling_architecture,What cooling architecture is used?,MENTIONED_NO_DETAIL,"Evaporative sites only: 1.42 l/kWh",18,18,Planet positive
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,cooling_architecture,What cooling architecture is used?,MENTIONED_NO_DETAIL,"In India, the adoption of liquid cooling improved data center power usage effectiveness (PUE)",28,28,Outcomes
+NTT DATA,nttdata_2025_sustainability-report-db.pdf,additional_claim,Are there any qualitative commitments regarding water?,Water management in high-stress areas,"We will work on efficient water management in data centers especially in high water stressed areas.",19,19,NTT DATA Environmental Policy

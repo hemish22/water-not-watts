@@ -1,0 +1,7 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+Sify Technologies,Sify_Techonologies_2024-25_Annual-Report.pdf,water_withdrawal_value,How much water did the company withdraw?,3,06,915.60,"Water withdrawal (kl) | 3,06,915.60",2,02,Environment
+Sify Technologies,Sify_Techonologies_2024-25_Annual-Report.pdf,water_withdrawal_unit,What is the unit of measure for water withdrawal?,kl,"Water withdrawal (kl) | 3,06,915.60",2,02,Environment
+Sify Technologies,Sify_Techonologies_2024-25_Annual-Report.pdf,wue_reported,Did the company report WUE?,YES,"Water Usage Efficiency (WUE) in litres) 1%",19,19,Water Management
+Sify Technologies,Sify_Techonologies_2024-25_Annual-Report.pdf,wue_value,What is the reported Water Usage Effectiveness (WUE)?,1%,"Water Usage Efficiency (WUE) in litres) 1%",19,19,Water Management
+Sify Technologies,Sify_Techonologies_2024-25_Annual-Report.pdf,additional_claim,Is there any other consumption metric reported?,96%,"Average Water Consumption per employee per month (in liters) 96%",19,19,Water Management
+Sify Technologies,Sify_Techonologies_2024-25_Annual-Report.pdf,additional_claim,Does the company monitor its water consumption?,Yes,"By monitoring our water consumption, we are able to identify areas where we can reduce our usage",19,19,Water Management

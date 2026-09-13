@@ -1,0 +1,10 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+CtrlS,ctrls_2024_sustainability-report.pdf,water_consumption_value,How much water did the company consume?,409037,"4,09,037",36,36,Water Management
+CtrlS,ctrls_2024_sustainability-report.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"changing water-cooled PAC to air-cooled PAC.",14,14,Contribution to Sustainable Development Goals
+CtrlS,ctrls_2024_sustainability-report.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"Replacement with Efficient Cooling Tower fills",33,33,Energy Management
+CtrlS,ctrls_2024_sustainability-report.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"Air-based Chillers and Precision Air Conditioners Cool Data Centers Efficiently, Reducing Water Use",36,36,Water Management
+CtrlS,ctrls_2024_sustainability-report.pdf,water_source,What are the water sources?,S3 treated wastewater,"Recycled Treated Wastewater for the Use of Sanitation and Gardening",36,36,Water Management
+CtrlS,ctrls_2024_sustainability-report.pdf,water_source,What are the water sources?,S5 rainwater or recycled,"Established Rainwater Harvesting (RWH) Systems",36,36,Water Management
+CtrlS,ctrls_2024_sustainability-report.pdf,additional_claim,Are there notable unquantified water claims?,T1 qualitative claim,"WATER POSITIVE BY 2030",13,13,Environmental Goals & Commitments
+CtrlS,ctrls_2024_sustainability-report.pdf,additional_claim,Are there notable unquantified water claims?,T1 qualitative claim,"Implementation of Zero Liquid Discharge (ZLD) Systems",36,36,Water Management
+CtrlS,ctrls_2024_sustainability-report.pdf,additional_claim,Are there notable unquantified water claims?,T1 qualitative claim,"Water footprint has been effectively decreased by 119,662 KL per year by changing water-cooled PAC to air-cooled PAC.",14,14,Contribution to Sustainable Development Goals

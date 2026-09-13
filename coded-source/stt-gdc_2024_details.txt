@@ -1,0 +1,10 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+ST Telemedia,stt_gdc_2024_esg-report.pdf,water_withdrawal_value,What is the global water withdrawal value?,1149020,"Water withdrawal | m³ | 1,059,011 | 1,149,020",63,63,Environmental and Social Data Sheet
+ST Telemedia,stt_gdc_2024_esg-report.pdf,wue_value,What is the Water Usage Effectiveness (WUE) value?,0.73,"2024 WUE 0.73",35,35,Water Stewardship
+ST Telemedia,stt_gdc_2024_esg-report.pdf,cooling_architecture,Is liquid cooling technology used?,MENTIONED_NO_DETAIL,"We have invested in liquid cooling technologies, which offer superior efficiency",8,8,Leadership Roundtable
+ST Telemedia,stt_gdc_2024_esg-report.pdf,cooling_architecture,Are air-cooled chillers used?,A3,"transition to air-cooled chillers in water-scarce areas",56,56,Climate Risk Resilience
+ST Telemedia,stt_gdc_2024_esg-report.pdf,cooling_architecture,What cooling technologies are used in India?,A1;A3,"integration of piping systems of water-cooled and air-cooled chillers",35,35,Enhancing water efficiency in HVAC operations
+ST Telemedia,stt_gdc_2024_esg-report.pdf,water_source,Are rainwater or recycled water sources used?,S5,"Minimise potable water usage through rainwater harvesting and recycling of brown water",18,18,Embedding ESG in the Entire Lifecycle of Operations
+ST Telemedia,stt_gdc_2024_esg-report.pdf,water_source,What water source is used in Singapore?,S5,"Our data centres in Singapore use NEWater, a high-grade recycled water",35,35,Water Stewardship
+ST Telemedia,stt_gdc_2024_esg-report.pdf,additional_claim,Did the company report India-specific water reduction figures?,Qualitative only,"The combination of these efforts has led to an overall reduction in water withdrawn",35,35,Enhancing water efficiency in HVAC operations
+ST Telemedia,stt_gdc_2024_esg-report.pdf,additional_claim,How is WUE defined?,Total Facility Water Consumption / IT Equipment Energy,"WUE = Total Facility Water Consumption / IT Equipment Energy",64,64,Definitions

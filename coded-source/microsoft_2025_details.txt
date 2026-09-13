@@ -1,0 +1,12 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,water_withdrawal_value,How much water did the company withdraw?,"10,377,000","10,377,000",37,37,Water Table 5
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,water_withdrawal_unit,What is the unit for water withdrawal?,m³,"Water m³",37,37,Water Table 5
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,water_consumption_value,How much water did the company consume?,"5,807,000","5,807,000",37,37,Water Table 5
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,water_consumption_unit,What is the unit for water consumption?,m³,"Water m³",37,37,Water Table 5
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,india_specific_data,Is there India-specific water data?,PARTIAL,"India campuses are treating water to a tertiary level",37,37,Water efficiency across campuses
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,wue_reported,Is Water Usage Effectiveness reported?,YES,"operated with an average WUE of 0.30 L/kWh",35,35,Improving datacenter water efficiency
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,wue_value,What is the WUE value?,0.30,"average withdrawal water usage effectiveness (WUE) of 0.30 L/kWh",35,35,Eliminating water for cooling in new datacenters
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,wue_type,What type of WUE is reported?,unspecified,"average withdrawal water usage effectiveness (WUE)",35,35,Eliminating water for cooling in new datacenters
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,cooling_architecture,What cooling architectures are deployed?,A2;A4;A5,"direct-to-chip liquid cooling... recycles water through a closed loop",35,35,Eliminating water for cooling in new datacenters
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,water_source,What water sources are utilized?,S1;S5,"minimize reliance on freshwater from municipal water systems... recycled water... Rainwater",36,36,Recycling and reuse initiatives
+Microsoft,Microsoft_2025_Environmental-Sustainability-Report-PDF_2.pdf,additional_claim,Are there qualitative claims regarding water savings?,Saving over 125,000 cubic meters,"saving over 125,000 cubic meters of water annually per datacenter",35,35,Eliminating water for cooling in new datacenters

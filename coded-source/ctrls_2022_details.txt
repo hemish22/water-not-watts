@@ -1,0 +1,6 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+CtrlS,ctrls_2022_esg-report-design-revised.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"huge energy cooling systems to prevent overheating.",10,10,Energy Efficiency
+CtrlS,ctrls_2022_esg-report-design-revised.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"reduce the blow-down water for HVAC systems.",11,11,Water Management
+CtrlS,ctrls_2022_esg-report-design-revised.pdf,water_source,What are the water sources?,S5 rainwater or recycled,"installing stormwater harvesting at Hyderabad, Noida & Bengaluru.",11,11,Water Management
+CtrlS,ctrls_2022_esg-report-design-revised.pdf,water_source,What are the water sources?,S3 treated wastewater,"collaborates with community STP/ETP/WTP at Mumbai.",11,11,Water Management
+CtrlS,ctrls_2022_esg-report-design-revised.pdf,additional_claim,Are there notable unquantified water claims?,T1 qualitative claim,"goal for 50% usage of recycled water by 2024 at the Mumbai Datacenter premises.",11,11,Water Management

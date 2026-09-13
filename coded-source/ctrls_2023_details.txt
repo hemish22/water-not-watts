@@ -1,0 +1,8 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+CtrlS,ctrls_2023_sustainability-report.pdf,water_consumption_value,How much water did the company consume?,468330,"Water Consumption (m3) | 4,68,330",34,34,Steps Taken Towards Achieving Water Neutrality
+CtrlS,ctrls_2023_sustainability-report.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"Direct Liquid Cooled (DLC), Liquid Cooled Servers, Hydro-MX (Liquid to be used instead of evaporator water in HVAC system)",29,29,Power Usage Effectiveness
+CtrlS,ctrls_2023_sustainability-report.pdf,cooling_architecture,What cooling technology is mentioned?,MENTIONED_NO_DETAIL,"High Efficient UPS, Chiller, Cooling Towers reducing water consumption",34,34,Steps Taken Towards Achieving Water Neutrality
+CtrlS,ctrls_2023_sustainability-report.pdf,water_source,What are the water sources?,S3 treated wastewater,"Recycled treated wastewater for the sanitation and gardening use",34,34,Steps Taken Towards Achieving Water Neutrality
+CtrlS,ctrls_2023_sustainability-report.pdf,water_source,What are the water sources?,S5 rainwater or recycled,"Storm Water Harvesting",34,34,Steps Taken Towards Achieving Water Neutrality
+CtrlS,ctrls_2023_sustainability-report.pdf,additional_claim,Are there notable unquantified water claims?,T1 qualitative claim,"We promote water positivity through recycling, innovation, and sustainable policies.",10,10,Overview of ESG at CtrlS
+CtrlS,ctrls_2023_sustainability-report.pdf,additional_claim,Are there notable unquantified water claims?,T1 qualitative claim,"Steps Taken Towards Achieving Water Neutrality",33,33,Water Management

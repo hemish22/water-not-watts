@@ -1,0 +1,11 @@
+operator,document_filename,field_name,question_asked,extracted_answer,verbatim_quote,pdf_page,printed_page,section_heading
+ST Telemedia,STT_2023_ESG-Report.pdf,water_withdrawal_value,What is the global water withdrawal value?,1059011,"Water Withdrawal 1,059,011 m³",61,61,Data Verified
+ST Telemedia,STT_2023_ESG-Report.pdf,wue_value,What is the Water Usage Effectiveness (WUE) value?,0.78,"2023 WUE 0.78",33,33,Figure 11: Water usage effectiveness
+ST Telemedia,STT_2023_ESG-Report.pdf,cooling_architecture,What cooling technologies are mentioned?,A1;A3,"Integrating the piping systems of water-cooled and air-cooled chillers",33,33,Enhancing our water management processes
+ST Telemedia,STT_2023_ESG-Report.pdf,cooling_architecture,Is cooling tower technology used?,A1,"Reusing cooling tower water through reverse osmosis plants",33,33,Enhancing our water management processes
+ST Telemedia,STT_2023_ESG-Report.pdf,cooling_architecture,Is liquid cooling technology used?,MENTIONED_NO_DETAIL,"deployed innovative liquid cooling systems in several of our data centres",32,32,Sustainably meeting the needs of AI workloads
+ST Telemedia,STT_2023_ESG-Report.pdf,water_source,Are recycled water sources used?,S5,"Singapore use NEWater, a high-grade recycled water",33,33,WATER STEWARDSHIP
+ST Telemedia,STT_2023_ESG-Report.pdf,water_source,Is groundwater used as a source?,S2,"continuously track water withdrawal from various sources, including groundwater",33,33,Enhancing our water management processes
+ST Telemedia,STT_2023_ESG-Report.pdf,water_source,Is treated wastewater or rainwater used?,S3;S5,"treated wastewater for various purposes... Installing rainwater harvesting systems",33,33,Enhancing our water management processes
+ST Telemedia,STT_2023_ESG-Report.pdf,additional_claim,What is the water withdrawal specifically for India operations?,357429 m³,"Water withdrawn 357,429 m³",58,58,INDIA
+ST Telemedia,STT_2023_ESG-Report.pdf,additional_claim,What water withdrawal is listed in the SASB index?,1030852 m³,"Total water withdrawn by portfolio area with data coverage (m³) Data Centres 1,030,852",71,71,Real Estate Standards
