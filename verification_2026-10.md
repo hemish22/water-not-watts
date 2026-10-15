@@ -80,7 +80,7 @@ Unchanged in the paper:
 
 - The taxonomy, the EWIF derivation (1.99–3.77 L/kWh, central 2.30)
 - The class parameters, the break-even analysis (EWIF* 4.00 / 5.45 / 8.18)
-- The A3–A5 gap (0.98 L/kWh) and Figs. 3–4
+- The A3–A5 gap (restated as 0.99 L/kWh in §G) and Figs. 3–4
 
 None of these depend on the coded documents.
 
@@ -107,4 +107,18 @@ None of these depend on the coded documents.
 - **CEA FY2024–25:** thermal 1,363.89 BU (coal/lignite 1,331,867 + gas 31,580 + diesel 443 GWh), hydro 148.63 BU, nuclear 56.68 BU, all per the CEA Growth Book 2025. Gas share 2.3% ✓.
 - **Macknick medians:** coal tower 687, nuclear tower 672, hydro 4,491 and biopower 553 gal/MWh ✓. The NGCC tower median is 205 in the 2012 ERL version against 198 used here; the effect is under 0.002 L/kWh.
 
-**Not independently confirmed.** The CEA renewable figure (255.01 BU) and the Bhutan import figure (5.48 BU) could not be checked, because CEA's PDFs are now behind a login. The total of 1,829.70 BU is within 0.2% of the 1,826 BU that Vasudha Foundation reports from CEA data.
+**Confirmed in the third round (16 Oct 2026).** The two figures that could not be checked before are now confirmed:
+
+- **Bhutan import 5.48 BU.** CEA Sub-Report 4, *Energywise performance status, all India*, March 2025 (published on npp.gov.in), row "BHUTAN IMP", April 2024 – March 2025: 5,484.18 GWh. The same table gives thermal 1,363,889.7, nuclear 56,680.83 and hydro 148,633.98 GWh, and a conventional total of 1,574,688.75 GWh.
+- **Renewables 255.01 BU.** 255,009.19 GWh for 2024–25, from the CEA Annual Report series (Ministry of Power data, via Dataful).
+- **Total.** 1,574,688.75 + 255,009.19 = 1,829,697.94 GWh, exactly the total the paper uses.
+
+## G. Third round (16 Oct 2026): consistency, layout, clean codes
+
+| # | Was | Now | Why |
+|---|---|---|---|
+| G1 | A3 4.37 vs A5 3.38, "a gap of 0.98 L/kWh" (text ×4, Fig. 2, Fig. 5 in the full paper) | Gap **0.99 L/kWh** | Exact values are 4.370, 3.385 and 0.985. The printed figures subtract to 0.99, so the gap now matches what a reader can check. No other number changes |
+| G2 | Fig. 5 (`fig3_stacked`): the "water-free" bracket and label sat over A3's EWIF whisker and hid its upper end (7.2) | Callout moved right of the whisker; x-axis extended to 11 | Layout only |
+| G3 | Full paper, Table I (Axis A): 10 pt overfull line | Column spacing tightened to 4 pt | Layout only |
+| G4 | CEA renewables (255.01 BU) and Bhutan import (5.48 BU) not independently confirmed | Both confirmed; see the note under §F | CEA Sub-Report 4, March 2025; CEA Annual Report data |
+| G5 | The first-pass `*_details.txt` files have 10 malformed rows and some wrong codes | New file `data/coded_details_verified.csv`, built by `scripts/build_verified_details.py`: 168 rows, 119 verified, 29 corrected, 20 added. Every quote was matched against the source text. The raw files are unchanged | October 2026 verification |
