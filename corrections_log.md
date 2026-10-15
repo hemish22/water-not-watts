@@ -1,4 +1,13 @@
 # Coded-Data Corrections Log
+
+> **Superseded in part (October 2026).** A complete second verification pass against the source
+> PDFs is recorded in [`verification_2026-10.md`](verification_2026-10.md). It withdraws §2.2
+> (the Sify Technologies "1%" is a year-on-year change, not a WUE value), revises §2.4 (Nxtra's
+> consumption equals withdrawal plus recycled water, a labelling error rather than a physical
+> impossibility), corrects §3 (8 of 18 rule-versus-manual disagreements, not 6; NTT DATA 2025
+> moves to T2), and corrects §4 (document tiers T1×4, T2×11, T3×3). The September table this log
+> describes is kept as `archive/master_audit_2026-09.csv`.
+
 **Paper:** From Cooling Towers to Cold Plates — water footprint of liquid-cooled AI data centres in India
 **Date:** 12 September 2026
 **Applies to:** `combined codes/*_summary.txt` → `audit/master_audit.csv`
