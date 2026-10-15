@@ -10,7 +10,10 @@ BU = dict(thermal=1363.89, hydro=148.63, nuclear=56.68, bhutan=5.48, res=255.01)
 TOT = sum(BU.values())
 sh  = {k: v/TOT for k, v in BU.items()}
 
-# Macknick et al. 2011 (NREL/TP-6A20-50900) median CONSUMPTION factors
+# Macknick et al. 2011 (NREL/TP-6A20-50900) median CONSUMPTION factors.
+# Checked against Macknick et al. 2012 (ERL 7 045802): coal tower 687, nuclear tower 672,
+# hydro 4491, biopower steam tower 553 match; NGCC tower is 205 in 2012 (198 here), <0.002 L/kWh effect.
+# F["solar"] is not used (RES_LO is set directly); 26 gal/MWh is the CSP dry-tower value, PV is 1.
 F = dict(coal_tower=687*G, gas_ccgt=198*G, nuclear_tower=672*G,
          hydro=4491*G, solar=26*G, wind=0.0, biopower=553*G)
 
@@ -52,7 +55,10 @@ print(f"\nHEADLINE central (S2, hydro excl.) : {central:.2f} L/kWh   [was 2.34]"
 print(f"BAND S1lo - S4hi   (hydro excl.)   : {band_lo:.2f} - {band_hi:.2f}   [was 1.97 - 3.88]")
 print(f"BAND with hydro included           : {res['S1 best practice (NREL tower median 2.60)'][2]:.2f}"
       f" - {res['S4 non-compliant / CEA 2012 obs. (5.0)'][3]:.2f}   [was 2.50 - 4.41]")
-print(f"\nUS grid average for comparison ~1.8 L/kWh -> India is {central/1.8:.2f}x")
+s2h = res["S2 MoEFCC post-2017 limit (3.0)"]
+print(f"\nLi et al. (CACM 2025) US average EWIF 3.14 L/kWh INCLUDES hydropower.")
+print(f"Like-for-like, India S2 hydro-included {s2h[2]:.2f}-{s2h[3]:.2f} L/kWh -> "
+      f"{s2h[2]/3.14:.2f}-{s2h[3]/3.14:.2f}x the US figure")
 print(f"\nGas-split sensitivity: treating the whole thermal block as coal raises S2 by "
       f"{ewif(3.00,False,RES_LO)-((1-0)*0+0):.0f}", end="")
 alt = sh["thermal"]*3.00 + sh["nuclear"]*F["nuclear_tower"] + sh["res"]*RES_LO
