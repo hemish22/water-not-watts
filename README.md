@@ -33,6 +33,7 @@ python3 scripts/breakeven.py                  # source WUE by class and zone, br
 python3 scripts/build_corrected_audit.py      # archive table + verified corrections -> master_audit.csv, tiers
 OUT=data/info_value_results.json python3 scripts/info_value.py   # intervals, U_j, information value
 ORIGINAL=1 python3 scripts/info_value.py      # reproduces the September 2026 (pre-verification) numbers
+python3 scripts/build_verified_details.py     # coded-source/ -> data/coded_details_verified.csv
 cd figures && for f in fig*_*.py; do python3 $f; done              # every figure -> figures/out/
 ```
 
@@ -46,11 +47,13 @@ The scripts in `scripts/` need only Python 3.8+ and its standard library. The fi
 | `verification_2026-10.md` | The October 2026 verification. It lists every correction with the source page, the corrected inputs to the uncertainty model, and the external sources checked. |
 | `corrections_log.md` | The September 2026 corrections log, kept for the record. Its header notes which sections were later superseded. |
 | `archive/master_audit_2026-09.csv` | The audit table as it stood before verification. |
-| `coded-source/` | First-pass coding output, one summary and one details file per document, so each correction can be checked against what it corrected. Ten rows in the `*_details.txt` files contain unquoted commas inside fields (for example Indian digit grouping). Parse them with care. |
+| `coded-source/` | First-pass coding output, one summary and one details file per document, so each correction can be checked against what it corrected. Ten rows in the `*_details.txt` files contain unquoted commas inside fields (for example Indian digit grouping). They are kept as the first-pass record; use `data/coded_details_verified.csv` for analysis. |
+| `data/coded_details_verified.csv` | Every first-pass detail row in one clean CSV: the 10 malformed rows rebuilt, wrong codes corrected, missed disclosures added. A `verification` column (`verified` / `corrected` / `added`) and a note give what changed and the source page. 168 rows: 119 verified, 29 corrected, 20 added. Built by `scripts/build_verified_details.py`. |
 | `data/info_value_results.json` | Output of `info_value.py`, read by the Fig. 4 script so the figure cannot drift from the tables. |
 | `scripts/ewif_india.py` | Grid electricity water intensity factor from the CEA generation record × NREL consumption factors, across four coal-fleet scenarios. |
 | `scripts/breakeven.py` | Source WUE per heat-rejection class per climate zone, and the break-even grid intensity at which dry cooling stops saving water. |
 | `scripts/build_corrected_audit.py` | Applies the verified corrections and recomputes document- and group-level tiers with the deterministic rule. |
+| `scripts/build_verified_details.py` | Rebuilds `data/coded_details_verified.csv` from `coded-source/`. |
 | `scripts/info_value.py` | Feasible-set interval estimator, uncertainty ratio U_j, and the marginal information value of each disclosure attribute. |
 | `figures/` | Plotting scripts for every figure; output goes to `figures/out/`. |
 
@@ -89,6 +92,7 @@ Each is cited individually in the paper and can be retrieved from the operator's
   March 2025*, p. 22, Table 1, April 2024 to March 2025 achievement column, plus the Renewable
   Energy Generation table on the same page. All-India achieved generation is 1,829,697.94 MU.
   - Thermal, hydro and nuclear agree with the CEA *Growth Book 2025*.
+  - Bhutan import (5,484.18 GWh) and the conventional total are confirmed in CEA Sub-Report 4 for March 2025; renewables (255,009.19 GWh) in the CEA Annual Report series. Conventional plus renewables gives the total exactly.
 - **Water consumption factors** — Macknick, Newmark, Heath and Hallett, *A Review of
   Operational Water Consumption and Withdrawal Factors for Electricity Generating
   Technologies*, NREL/TP-6A20-50900 (2011), median values.

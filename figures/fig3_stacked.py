@@ -40,7 +40,7 @@ for i, (code, name, ws, pue) in enumerate(CLS):
 ax.set_yticks(ys)
 ax.set_yticklabels([f"$\\bf{{{c}}}$   {n}" for c, n, _, _ in CLS], fontsize=10.2)
 ax.set_xlabel("water use effectiveness   (L / kWh$_{IT}$)", fontsize=11, fontweight="bold")
-ax.set_xlim(0, 10.4); ax.set_ylim(-0.95, len(CLS)-0.20)
+ax.set_xlim(0, 11.0); ax.set_ylim(-0.95, len(CLS)-0.20)
 ax.grid(axis="x", color="#C9D6C9", lw=0.7, zorder=0)
 ax.set_axisbelow(True)
 for s in ("top", "right"): ax.spines[s].set_visible(False)
@@ -53,10 +53,10 @@ ax.text(base+0.06, len(CLS)-0.42, "evaporative baseline  5.13",
 
 # "water-free" bracket over A5 and A3
 i5, i3 = 1, 2
-xb = 6.55
+xb = 7.85                                   # clear of the A3 whisker (to 7.16)
 ax.plot([xb, xb+0.16, xb+0.16, xb], [i5, i5, i3, i3], color=C["ink"], lw=1.5, zorder=8)
-ax.annotate("both marketed as\n“water-free cooling”\nΔ = 0.98 L/kWh at source",
-            xy=(xb+0.16, (i5+i3)/2), xytext=(xb+0.55, (i5+i3)/2),
+ax.annotate("both marketed as\n“water-free cooling”\nΔ = 0.99 L/kWh at source",
+            xy=(xb+0.16, (i5+i3)/2), xytext=(xb+0.45, (i5+i3)/2),
             fontsize=9.2, fontweight="bold", va="center", zorder=9,
             bbox=dict(boxstyle="round,pad=0.34", fc=C["yellow"], ec="black", lw=1.2),
             arrowprops=dict(arrowstyle="-", lw=0))

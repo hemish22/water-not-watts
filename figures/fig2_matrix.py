@@ -102,7 +102,7 @@ y3 = y_top - 3*rh + rh/2
 y5 = y_top - 5*rh + rh/2
 ax.annotate("", xy=(xg, y3), xytext=(xg, y5),
             arrowprops=dict(arrowstyle="<|-|>", lw=2.2, color=C["red"]), zorder=9)
-ax.text(xg-0.17, (y3+y5)/2, "Δ 0.98 L/kWh",
+ax.text(xg-0.17, (y3+y5)/2, "Δ 0.99 L/kWh",
         ha="center", va="center", fontsize=8.4, color=C["red"], fontweight="bold",
         rotation=90, zorder=10,
         bbox=dict(boxstyle="round,pad=0.18", fc="white", ec=C["red"], lw=1.2))
